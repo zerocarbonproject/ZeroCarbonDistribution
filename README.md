@@ -1,2 +1,3 @@
 # ZeroCarbonDistribution
-Used to distribute rewards to consumers
+
+Used to distribute rewards to consumers.
