@@ -51,4 +51,11 @@ contract ZCDistribution is Claimable {
         numDrops += dests.length;
         return i;
     }
+
+    /**
+     * @dev Returns the Amount of tokens issued to consumers 
+     */
+    function getSentAmount() external view returns (uint256) {
+        return dropAmount;
+    }
 }
