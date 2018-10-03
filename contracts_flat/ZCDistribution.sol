@@ -188,6 +188,7 @@ contract ZCDistribution is Claimable {
      * @param _tokenAddr The Address of the Token
      */
     constructor(address _tokenAddr) public {
+        assert(_tokenAddr != address(0));
         tokenAddress = _tokenAddr;
     }
 
